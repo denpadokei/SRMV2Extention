@@ -50,8 +50,6 @@ namespace SRMV2Extention
         public void OnApplicationStart()
         {
             Log.Debug("OnApplicationStart");
-            //new GameObject("SRMV2ExtentionController").AddComponent<SRMV2ExtentionController>();
-
         }
 
         [OnExit]

@@ -121,7 +121,6 @@
     <Compile Include="Models\SRMExtentionCommand.cs" />
     <Compile Include="Plugin.cs" />
     <Compile Include="Configuration\PluginConfig.cs" />
-    <Compile Include="SRMV2ExtentionController.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
   </ItemGroup>
   <ItemGroup>
