@@ -1,0 +1,2 @@
+# SRMV2Extention
+SRMV2のコマンドを拡張するテンプレートMOD
