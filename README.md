@@ -1,6 +1,5 @@
 # SRMV2Extention
 
-[![Build and Release](https://github.com/denpadokei/SRMV2Extention/actions/workflows/build-and-release.yml/badge.svg)](https://github.com/denpadokei/SRMV2Extention/actions/workflows/build-and-release.yml)
 
 SongRequestManagerV2 に独自のチャットコマンドを追加するための拡張テンプレート MOD です。サンプルとして 4 つのコマンドを実装しています。
 
@@ -50,7 +49,8 @@ dotnet build .\SRMV2Extention\SRMV2Extention.csproj -c Release
 
 `BeatSaberDir` (または `GameDirectory`) に Beat Saber のインストール先を設定すると、ゲームの参照アセンブリを解決できます。既定では `..\Refs` フォルダが参照先になります。
 
-GitHub Actions の `build-and-release.yml` が push ごとにビルドし、`X.X.X` 形式のタグを push するとリリースを作成します。
+
+> GitHub Actions によるビルドは未設定です。コードが SongRequestManagerV2 14 系の API を必要とする一方、manifest の対象バージョン (1.12.2) 向けの SongRequestManagerV2 が提供されていないため。
 
 ## ライセンス
 
